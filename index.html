@@ -72,15 +72,12 @@
       display: none;
     }
     .hero-images {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
       margin-top: 40px;
+      text-align: center;
     }
     .hero-images img {
       width: 100%;
-      max-width: 300px;
+      max-width: 600px;
       border-radius: 10px;
       object-fit: cover;
     }
@@ -111,13 +108,13 @@
     }
     @media (max-width: 768px) {
       .hero-text h1 { font-size: 2.2rem; }
-      .hero-images img { max-width: 80%; }
+      .hero-images img { max-width: 90%; }
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="img/charity-water-logo.png" alt="Logo">
+    <img class="logo" src="img/charity-water-logo.png" alt="Logo">
   </header>
   <nav>
     <a href="#">Mission</a>
@@ -138,7 +135,6 @@
     </div>
     <div class="hero-images">
       <img src="img/5047_Ethiopia_2019_CG-.jpg" alt="Girl with book">
-      <img src="img/water-can-transparent.png" alt="Water can">
     </div>
   </section>
 
